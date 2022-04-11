@@ -2,14 +2,12 @@ import React, { Component, UseState } from 'react';
 import ReactDOM from 'react-dom';
 import { node } from 'prop-types';
 
-import Paginator from './paginator';
-
 function Home() {
   return (
     <div className="Home">
-      <h1>Homepage</h1>
+      <h1>Dashboard</h1>
 
-      <Paginator></Paginator>
+    
     </div>
   );
 }

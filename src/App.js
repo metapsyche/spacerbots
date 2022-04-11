@@ -7,6 +7,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { node } from 'prop-types';
 
+import Navbar from './components/Navbar';
+
 /**
 type Props = {
   children: ReactNode
@@ -15,7 +17,8 @@ type Props = {
 
 const App = ({ children }) => (
   <div className="App">
-    <Header />
+    <Header byline="Robots made of Spacers" />
+    <Navbar></Navbar>
     {children}
   </div>
 )
