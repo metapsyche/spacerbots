@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom';
 import { node } from 'prop-types';
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 /**
 type Props = {
@@ -16,11 +17,15 @@ type Props = {
 */
 
 const App = ({ children }) => (
-  <div className="App">
-    <Header byline="Robots made of Spacers" />
-    <Navbar></Navbar>
-    {children}
-  </div>
+  <>
+    <div className="App">
+      <Header byline="Robots made of Spacers" />
+      <Navbar></Navbar>
+      {children}
+    </div>
+    <div style={{clear: 'both'}}></div>
+    <Footer copyright="2022"></Footer>
+  </>
 )
 
 export default App;

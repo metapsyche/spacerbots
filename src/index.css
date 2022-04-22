@@ -15,3 +15,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home {
+  height: 300px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.splash {
+  /* center vertically and horizontally */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.spacerbots {
+  /* brand font */
+  font-family: 'Goldman', cursive;
+  font-size: 75px;
+  font-weight: bold;
+}
