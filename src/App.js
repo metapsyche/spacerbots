@@ -23,8 +23,8 @@ const App = ({ children }) => (
       <Navbar></Navbar>
       {children}
     </div>
-    <div style={{clear: 'both'}}></div>
-    <Footer copyright="2022"></Footer>
+    {/* <div style={{clear: 'both'}}></div>
+    <Footer copyright="2022"></Footer> */}
   </>
 )
 

@@ -7,7 +7,7 @@ function Home() {
     <div className="home">
       <div className="splash">
 
-        <p className="spacerbots">SpacerBots</p>
+        <p className="spacerbots">Spacerbots</p>
 
       </div>
     </div>

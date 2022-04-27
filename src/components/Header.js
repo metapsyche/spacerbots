@@ -8,7 +8,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <header className="bg-gray-800">
-        <h1 className="text-3xl font-bold text-white">SpacerBots</h1>
+        <h1 className="text-3xl font-bold text-white">Spacerbots</h1>
         <h2 className="text-white">{this.props.byline}</h2>
       </header>
     )
