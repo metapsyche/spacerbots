@@ -19,7 +19,7 @@ type Props = {
 const App = ({ children }) => (
   <>
     <div className="App">
-      <Header byline="Robots made of Spacers" />
+      <Header byline="Blog" />
       <Navbar></Navbar>
       {children}
     </div>
