@@ -19,8 +19,8 @@ type Props = {
 const App = ({ children }) => (
   <>
     <div className="App">
-      <Header byline="Robots made of Spacers" />
-      <Navbar></Navbar>
+      {/* <Header byline="Robots made of Spacers" />
+      <Navbar></Navbar> */}
       {children}
     </div>
     {/* <div style={{clear: 'both'}}></div>
