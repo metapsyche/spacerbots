@@ -56,27 +56,6 @@ p {
   min-width: 87px;
 }
 
-.btn_connect_wallet {
-  float: right;
-  margin: 7px 0 10px 0;
-}
-
-.connect_wallet_btn {
-  margin: 0;
-  padding: 6px 7px 6px 7px;
-  border-radius: 0.25rem;
-  width: auto;
-  background-color: darkgray;
-  cursor: pointer;
-  display: inline-block;
-  color: white;
-  font-size: 12px;
-  font-weight: normal;
-  display: table-cell;
-  vertical-align: top;
-  font-family: "Benton Sans", "tablet-gothic-narrow", Helvetica, Arial, sans-serif;
-}
-
 .home {
   height: auto;
   max-width: 100%;
@@ -85,16 +64,6 @@ p {
 .section {
   height: auto;
   background-color: gray;
-}
-
-.section--statement {
-  height: 350px;
-  background-color: whitesmoke;
-}
-
-.section--dapp {
-  height: 350px;
-  background-color: lightgray;
 }
 
 .splash {
@@ -107,42 +76,15 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.content {
-  /* center vertically and horizontally */
-  /* margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
-}
-
-.mash {
+.mainfont {
   font-size: 90px;
   font-weight: bold;
   font-family: 'Goldman', cursive;
 }
 
-.mash-sm {
+.mainfont {
   font-size: 15px;
   font-family: 'Goldman', cursive;
-}
-
-.statement {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.howitworks {
-  width: 100%;
-}
-
-.howitworks__td {
-  width: 18%;
-}
-
-.howitworks__td span {
-  margin-right: 10px;
 }
 
 .exo2 {
@@ -152,21 +94,5 @@ p {
 .section--splash {
   background-image: linear-gradient(45deg, #4f4f4f 25%, #4d4d4d 25%, #4d4d4d 50%, #4f4f4f 50%, #4f4f4f 75%, #4d4d4d 75%, #4d4d4d 100%);
   background-size: 56.57px 56.57px; 
-}
-
-.section--musicart {
-  background-color: whitesmoke;
-  /* background-image: linear-gradient(45deg, #f7f7f7 25%, #fafafa 25%, #fafafa 50%, #f7f7f7 50%, #f7f7f7 75%, #fafafa 75%, #fafafa 100%);
-  background-size: 113.14px 113.14px;   */
-}
-
-.section--whymash {
-  background: rgb(238,245,241);
-background: linear-gradient(90deg, rgba(238,245,241,0.9934567577030813) 53%, rgba(51,51,51,0.3772102591036415) 100%);
-}
-
-.section--interested {
-  background-image: linear-gradient(45deg, #4f4f4f 25%, #4d4d4d 25%, #4d4d4d 50%, #4f4f4f 50%, #4f4f4f 75%, #4d4d4d 75%, #4d4d4d 100%);
-  background-size: 56.57px 56.57px;
 }
 

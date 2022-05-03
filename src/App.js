@@ -7,7 +7,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { node } from 'prop-types';
 
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 /**
@@ -19,8 +18,6 @@ type Props = {
 const App = ({ children }) => (
   <>
     <div className="App">
-      {/* <Header byline="Robots made of Spacers" />
-      <Navbar></Navbar> */}
       {children}
     </div>
     {/* <div style={{clear: 'both'}}></div>
