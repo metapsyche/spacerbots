@@ -9,6 +9,11 @@ import { node } from 'prop-types';
 
 import Footer from './components/Footer';
 
+import { DataStore } from '@aws-amplify/datastore';
+import { Spacers } from './models';
+
+import { ItemCard} from './ui-components';
+
 /**
 type Props = {
   children: ReactNode
@@ -20,8 +25,6 @@ const App = ({ children }) => (
     <div className="App">
       {children}
     </div>
-    {/* <div style={{clear: 'both'}}></div>
-    <Footer copyright="2022"></Footer> */}
   </>
 )
 
