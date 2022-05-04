@@ -1,0 +1,22 @@
+
+docs: https://docs.amplify.aws/lib/datastore/getting-started/q/platform/js/
+
+// to pull
+amplify pull --appId d7i7sj6ug10tx --envName staging
+
+
+import { DataStore } from '@aws-amplify/datastore';
+import { Spacers } from './models';
+
+// to create 
+await DataStore.save(
+    new Spacers({
+		"name": "Lorem ipsum dolor sit amet",
+		"color": "Lorem ipsum dolor sit amet"
+	})
+);
+
+
+// to query
+const models = await DataStore.query(Spacers);
+console.log(models);

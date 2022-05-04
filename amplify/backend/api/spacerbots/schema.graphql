@@ -1,0 +1,31 @@
+type Blueprints @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  Builds: [Builds] @hasMany(indexName: "byBlueprints", fields: ["id"])
+}
+
+type Builds @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  Structs: AWSJSON
+  Blueprint: String
+  blueprintsID: ID! @index(name: "byBlueprints")
+}
+
+type Structs @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  sembles: AWSJSON
+}
+
+type Sembles @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  spacers: AWSJSON
+}
+
+type Spacers @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  color: String
+}
